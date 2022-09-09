@@ -1,0 +1,515 @@
+@font-face {
+    font-family: font;
+    src: url(../webfonts/Montserrat-Light.ttf);
+  }
+  @font-face {
+    font-family: font-bold;
+    src: url(../webfonts/Montserrat-Medium.ttf);
+  }
+
+  @font-face {
+    font-family: font-bolder;
+    src: url(../webfonts/Montserrat-Bold.ttf);
+  }
+
+
+
+
+.card{
+    text-align: center;
+}
+
+.d{
+    margin-bottom: 4px;
+}
+.d6{
+    display: inline-block;
+    margin-left: 5px;
+    text-align: center;
+}
+.card-title{
+    display: inline-block;
+    margin-right: 3px;
+    text-align: center;
+
+}
+
+.items .card-title{
+    text-align: start;
+    display: block;
+    margin-right: 3px;
+} 
+
+.cardss:hover{
+    box-shadow: 5px 5px 5px black;
+}
+div.absolute {
+    position: absolute; 
+    top:2% ;
+    bottom:0%; 
+    right: 0%;
+    left:73%;
+    width: 85px;
+    height: 35px;
+    background-color:#01a697;
+    box-shadow: 2px 2px 4px black;
+    padding: 5px;
+    color: white;
+} 
+div.absolute1{
+    position: absolute; 
+    top:2% ;
+    bottom:0%; 
+    right: 73%;
+    left:0%;
+    width: 85px;
+    height: 35px;
+    background-color:red;
+    box-shadow: 2px 2px 4px black;
+    padding: 5px;
+    color: white;
+} 
+div.absolute2{
+    display: none;
+    position: absolute; 
+    top:25% ;
+    bottom:0%; 
+    right: 0%;
+    left:85%;
+    width: 35px;
+    height: 35px;
+    box-shadow: 2px 2px 4px black;
+    padding: 5px;
+    color: white;
+}
+.cardss:hover .absolute2{
+    display: block !important;
+    
+}
+div.absolute3{
+    display: none;
+    position: absolute; 
+    top:40% ;
+    bottom:0%; 
+    right: 0%;
+    left:85%;
+    width: 35px;
+    height: 35px;
+    box-shadow: 2px 2px 4px black;
+    padding: 5px;
+    color: white;
+}
+.cardss:hover .absolute3{
+    display: block !important;
+    
+}
+#btn5{
+    color: #01a697;
+    border-radius: 0%;
+    border: #01a697 !important;
+    border-width:2px; 
+    border-style:solid;
+    padding: 10px;
+    width: 5cm;
+    display: none;
+}
+#btn5:hover{
+    background-color: #01a697;
+    color:  white !important;
+    border: #01a697;
+    border-width:2px; 
+    border-style:solid;
+    display: none;
+}
+.cardss:hover #btn5{
+    display: inline-block;
+    
+}
+
+
+
+
+.d{
+    margin-bottom: 4px;
+}
+.d6{
+    display: inline-block;
+    margin-left: 5px;
+    text-align: center;
+}
+.card-title{
+    /* display: inline-block; */
+    /* margin-right: 3px; */
+    /* text-align: center; */
+}
+.h{
+    font-size: small;
+}
+#part2{
+    background-color:#f8fefe;
+}
+#te{
+    margin-bottom: 6px;
+}
+#te1{
+    color: #01a697;
+    display: inline;
+    font-size: 35px;
+
+}
+#te2{
+    display: inline;
+    font-size: 35px;
+    margin-bottom: 3px;
+
+}
+#te3{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+#btn1{
+    border-radius: 0%;
+    background-color:#01a697;
+    padding: 10px;
+    width: 5cm;
+}
+#btn1:hover{
+    background-color: white;
+    color:  #01a697 !important;
+    border: #01a697;
+    border-width:2px; 
+    border-style:solid; 
+
+
+}
+#part22{
+    background-color:#f7f7f7 ;
+}
+#btn2{
+    color: #01a697;
+    border-radius: 0%;
+    border: #01a697 !important;
+    border-width:2px; 
+    border-style:solid;
+    padding: 10px;
+    width: 5cm;
+}
+#btn2:hover{
+    background-color: #01a697;
+    color:  white !important;
+    border: #01a697;
+    border-width:2px; 
+    border-style:solid; 
+
+}
+
+#te4{
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+
+.icon {
+    /* transition: all .3s ease-in-out; */
+    color: #bbbbbb;
+}
+
+.carousel-inner .icon:hover {
+    background-color: white;
+    border:gray;
+    border-width:2px; 
+    border-style:solid; 
+    cursor: pointer;
+}
+#conta{
+    background-color:#fafafa;
+}
+#profile-tab{
+    border-radius: 0cm;
+}
+#profile-tab:focus-within{
+    background-color: #01a697;
+    color: white !important;
+}
+
+#home-tab{
+    border-radius: 0cm;
+}
+#home-tab:focus-within{
+    background-color: #01a697;
+    color: white !important;
+
+}
+
+#contact-tab{
+    border-radius: 0cm;
+}
+#contact-tab:focus-within{
+    background-color: #01a697;
+    color: white !important;
+
+}
+
+#myTab{
+    margin-bottom: .50cm;
+    width: 24.5cm !important;
+}
+#mytab{
+    margin-bottom: .50cm;
+    width: 34cm !important;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.center .stars{
+  text-align: center;
+}
+.stars input{
+  display: none;
+}
+.stars label{
+  float: center;  
+  font-size: 20px;
+  color: lightgrey;
+  /* margin: 5 0px; */
+  text-shadow: 1px 1px #bbb;
+}
+.stars label:before{
+  content: '★';
+}
+.stars input:checked ~ label{
+  color: gold;
+  text-shadow: 1px 1px #c60;
+}
+.stars:not(:checked) > label:hover,
+.stars:not(:checked) > label:hover ~ label{
+  color: gold;
+}
+.stars input:checked > label:hover,
+.stars input:checked > label:hover ~ label{
+  color: gold;
+  text-shadow: 1px 1px goldenrod;
+}
+.stars .result:before{
+  content: "";
+  font-size: 30px;
+  font-weight: 500;
+  color: gold;
+  font-family: 'Poppins', sans-serif;
+  display: none;
+}
+.stars input:checked ~ .result:before{
+  display: block;
+}
+
+.carousel-control-prev-icon{
+    background-color: #bbb !important;
+}
+.carousel-control-next-icon{
+    background-color: #bbb !important;
+}
+
+
+.smals{
+
+    color: #5a5858;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 200;
+    text-align: start;
+}
+.smals h6{
+
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+
+.smals:hover{
+
+    background-color: #ffffff;
+    
+}
+.smals:hover .fsmal{
+
+    color: #01a697;
+    
+}
+
+
+.offers{
+    margin-left: 10px;
+    color: #707070;
+}
+
+.offers h2{
+    font-family: font-bolder;
+
+}
+
+.offers h3{
+    font-family: font-bold;
+    font-size: 20px;
+}
+
+
+.offers span{
+    font-family: font-bold;
+}
+
+.offers p{
+    font-size: 14px;
+
+}
+
+.offers-button{
+    border: 1px solid #01a697;
+    background-color: white;
+    color: #01a697;;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: font-bold;
+
+}
+
+.offers-button:hover{
+    color: white;
+    background-color: #01a697;
+
+}
+
+
+
+.offerss{
+    color: #707070;
+    background-color: #F8F8F8;
+    text-align: center;
+    padding: 40px;
+}
+
+.offerss h2{
+    font-family: font-bolder;
+
+}
+
+.offerss h3{
+    font-family: font-bold;
+    font-size: 20px;
+}
+
+
+.offerss span{
+    font-family: font-bold;
+}
+
+.offerss p{
+    font-size: 14px;
+
+}
+
+.offerss-button{
+    border: 1px solid #01a697;
+    background-color: white;
+    color: #01a697;;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: font-bold;
+
+}
+
+.offerss-button:hover{
+    color: white;
+    background-color: #01a697;
+
+}
+
+
+.offer-item {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  
+  .offer-item .image {
+    margin-left: auto;
+  }
+  
+  .offer-item h3 {
+    margin-top: 5px;
+    margin-bottom: 16px;
+  }
+  
+  .offer-item .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    z-index: 2;
+    padding: 40px;
+  }
+  
+  .offer-item p {
+    max-width: 250px;
+  }
+  
+
+  .offer-item{
+    margin-left: 10px;
+    color: #707070;
+    text-align: start;
+
+}
+
+.offer-item h2{
+    font-family: font-bolder;
+
+}
+
+.offer-item h3{
+    font-family: font-bold;
+    font-size: 20px;
+}
+
+
+.offer-item span{
+    font-family: font-bold;
+}
+
+.offer-item p{
+    font-size: 14px;
+
+}
+
+.offer-item-button{
+    border: 1px solid #01a697;
+    background-color: white;
+    color: #01a697;;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: font-bold;
+
+}
+
+.offer-item-button:hover{
+    color: white;
+    background-color: #01a697;
+
+}

@@ -1,0 +1,311 @@
+@font-face {
+    font-family: font;
+    src: url(../webfonts/Montserrat-Light.ttf);
+  }
+  @font-face {
+    font-family: font-bold;
+    src: url(../webfonts/Montserrat-Medium.ttf);
+  }
+
+  @font-face {
+    font-family: font-bolder;
+    src: url(../webfonts/Montserrat-Bold.ttf);
+  }
+
+*{
+    font-family: font;
+}
+
+.card{
+    text-align: center;
+}
+.card-img-top{
+    width: 18rem;
+    height: 20rem;
+}
+.d{
+    margin-bottom: 4px;
+}
+.d6{
+    display: inline-block;
+    margin-left: 5px;
+    text-align: center;
+}
+.card-title{
+    display: inline-block;
+    margin-right: 3px;
+    text-align: center;
+
+}
+.h{
+    font-size: small;
+}
+#part2{
+    background-color:#f8fefe;
+}
+#te{
+    margin-bottom: 6px;
+}
+#te1{
+    color: #01a697;
+    display: inline;
+    font-size: 35px;
+
+}
+#btn1:hover {
+    background-color: white;
+    color: #01a697 !important;
+    border: #01a697;
+    border-width: 2px;
+    border-style: solid;
+}
+#te2{
+    display: inline;
+    font-size: 35px;
+    margin-bottom: 3px;
+
+}
+#te3{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.btn1{
+    border-radius: 0%;
+    background-color:#01a697;
+    padding: 10px;
+    width: 5cm;
+}
+#part22{
+    background-color:#f7f7f7 ;
+}
+#btn2{
+    color: #01a697;
+    border-radius: 0%;
+    padding: 10px;
+    width: 5cm;
+
+}
+#btn2:hover{
+    background-color: #01a697;
+    color:  white !important;
+    border: #01a697;
+    border-width:2px; 
+    border-style:solid; 
+
+}
+#te4{
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+
+.icon {
+    transition: all .3s ease-in-out;
+    color: #bbbbbb;
+}
+
+.icon:hover {
+    background-color: white;
+    border:gray;
+    border-width:3px; 
+    border-style:solid; 
+    cursor: pointer;
+}
+#conta{
+    background-color:#fafafa;
+}
+
+.smals{
+
+    color: #707070;
+    font-weight: 300;
+    
+}
+
+.smals h5{
+    font-family: font-bold;
+    margin-bottom: 15px;
+}
+
+
+.smals:hover{
+
+    background-color: #ffffff;
+    
+}
+
+.offers{
+    margin-left: 10px;
+    color: #707070;
+    text-align: right;
+
+}
+
+.offers h2{
+    font-family: font-bolder;
+
+}
+
+.offers h3{
+    font-family: font-bold;
+    font-size: 20px;
+}
+
+
+.offers span{
+    font-family: font-bold;
+}
+
+.offers p{
+    font-size: 14px;
+
+}
+
+.offers-button{
+    border: 1px solid #01a697;
+    background-color: white;
+    color: #01a697;;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: font-bold;
+
+}
+
+.offers-button:hover{
+    color: white;
+    background-color: #01a697;
+
+}
+
+
+
+.offerss{
+    color: #707070;
+    background-color: #F8F8F8;
+    text-align: center;
+    padding: 40px;
+}
+
+.offerss h2{
+    font-family: font-bolder;
+
+}
+
+.offerss h3{
+    font-family: font-bold;
+    font-size: 20px;
+}
+
+
+.offerss span{
+    font-family: font-bold;
+}
+
+.offerss p{
+    font-size: 14px;
+
+}
+
+.offerss-button{
+    border: 1px solid #01a697;
+    background-color: white;
+    color: #01a697;;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: font-bold;
+
+}
+
+.offerss-button:hover{
+    color: white;
+    background-color: #01a697;
+
+}
+
+
+
+
+.offer-item {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  
+  .offer-item .image-thumb {
+    margin-left: auto;
+  }
+  
+  .offer-item h3 {
+    margin-top: 5px;
+    margin-bottom: 16px;
+  }
+  
+  .offer-item .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    z-index: 2;
+    padding: 40px;
+  }
+  
+  .offer-item p {
+    max-width: 250px;
+  }
+  
+
+  .offer-item{
+    margin-left: 10px;
+    color: #707070;
+    text-align: right;
+
+}
+
+.offer-item h2{
+    font-family: font-bolder;
+
+}
+
+.offer-item h3{
+    font-family: font-bold;
+    font-size: 20px;
+}
+
+
+.offer-item span{
+    font-family: font-bold;
+}
+
+.offer-item p{
+    font-size: 14px;
+
+}
+
+.offer-item-button{
+    border: 1px solid #01a697;
+    background-color: white;
+    color: #01a697;;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: font-bold;
+
+}
+
+.offer-item-button:hover{
+    color: white;
+    background-color: #01a697;
+
+}
